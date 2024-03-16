@@ -1,0 +1,52 @@
+h1{
+    font-weight: normal;
+    background-color: rgba(187, 142, 82, 0.904);
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(k.jpeg);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#group-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#group-table th,
+#group-table td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#group-table th {
+    background-color: #ecc1c1;
+}
+
+.group-item:hover {
+    background-color:rgb(190, 127, 138);
+}
